@@ -20,9 +20,9 @@
     </section>
 
     <!-- Este es un componente para probar las peticiones con axios -->
-    <div class="mt-2">
+    <!-- <div class="mt-2">
       <PruebaAxios/>
-    </div>
+    </div> -->
 
         <!-- Este es un componente para probar las peticiones con axios -->
     <div class="mt-2">
@@ -40,7 +40,7 @@
 import PageHeader from './components/PageHeader.vue';
 import TeamCard from './components/TeamCard.vue';
 import PageNews from './components/PageNews.vue';
-import PruebaAxios from './components/PruebaAxios.vue';
+// import PruebaAxios from './components/PruebaAxios.vue';
 import PageFooter from './components/PageFooter.vue';
 
 export default {
@@ -48,7 +48,7 @@ export default {
   components: {
     PageHeader,
     TeamCard,
-    PruebaAxios,
+    //PruebaAxios,
     PageNews,
     PageFooter
   },
