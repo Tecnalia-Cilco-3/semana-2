@@ -8,7 +8,7 @@
                 <ul class="list-group">
                     <img v-bind:src="poster" alt="" width="300px">
                         <li class="list-group-item">
-                        {{ datos[0].Title }}
+                        {{ datos.title }}
                         
                     </li>
                 </ul>
@@ -42,7 +42,7 @@ export default {
     props: "",
     data () {
     return {
-        datos: [],
+        datos: null,
         poster: "",
         loading: true,
         errored: false
@@ -50,9 +50,9 @@ export default {
     },
     mounted () {
     axios
-        .get('http://www.omdbapi.com/?s=fast&type=movie&apikey=eddbf14f')
+        .get('http://newsapi.org/v2/top-headlines?country=co&category=science&apiKey=66f1861c8a2447c1ae3b8d5735305da5')
         .then(response => {
-            this.datos = response.data.Search
+            this.datos = response.data.articles.slice(0, 4)
             // this.poster = response.data.Poster
         })
         .catch(error => {
