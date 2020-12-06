@@ -9,14 +9,14 @@
             <div class= "d-flex justify-content-center">
                 <div class="card mb-3" style="max-width: 900px;">
                     <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img :src="dato.Poster" class="card-img" alt="Poster Image">
+                        <div class="col-md-4 mt-4">
+                            <img :src="dato.urlToImage" class="card-img" alt="News Image">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">{{ dato.Title }}</h5>
-                                <p class="card-text">{{ dato.Year }}</p>
-                                <p class="card-text"><small class="text-muted">Here goes the link</small></p>
+                                <h5 class="card-title">{{ dato.title }}</h5>
+                                <p style="font-size: 13px;">{{ dato.description }}</p>
+                                <a :href="dato.url" class="card-text"><small class="text-muted">Here goes the link</small></a>
                             </div>
                         </div>
                     </div>
@@ -47,11 +47,12 @@ export default {
     }
     },
     // Noticias (Cambiar la API y demás)
-    mounted () { 
+mounted () {
     axios
-        .get('http://www.omdbapi.com/?s=harry&type=movie&apikey=eddbf14f')
+        .get('http://newsapi.org/v2/top-headlines?country=co&category=science&apiKey=66f1861c8a2447c1ae3b8d5735305da5')
         .then(response => {
-            this.datos = response.data.Search.slice(0,4)
+            this.datos = response.data.articles.slice(4, 8)
+            // this.poster = response.data.Poster
         })
         .catch(error => {
             console.log(error)
