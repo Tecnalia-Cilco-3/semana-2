@@ -1,19 +1,31 @@
 <template>
 <div>
-    <!-- Aquí va el footer -->
-    <footer>
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Espacio dedicado a los frameworks para javascript de mayor tendencia y versatilidad en el mundo de la programación.</h5>            
-            <a href="https://github.com/equipo73mintic/retoIcicloIII" class="btn btn-primary" target="_blank">Repositorio Github</a>            
+  <!-- Aquí va el footer -->
+  <footer>
+    <div class="container-fluid content-row">
+      <div class="row">
+          <div class="col-sm-12 col-lg-6">            
+              <div class="card h-100">
+                <div class="card-header">
+                  <h5 class="card-title">Espacio dedicado a los frameworks para javascript de mayor tendencia y versatilidad en el mundo de la programación.</h5>               
+                  <p class="text-center"><a href="https://github.com/equipo73mintic/Reto-Semana-2" class="btn btn-info" target="_blank">Repositorio Github</a></p>
+                </div>
+              </div>
           </div>
-        </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <p class="text-center"><small><a href="mailto:santamaria.wolfgang@gmail.com"> Wolfgang Jose Santamaria Cordoba</a> [Scrum Master]</small></p>
+              <p class="text-center"><small><a href="mailto:geralcr749@gmail.com"> Geraldine Claros Rios</a> [Desarrollador Front-End]</small></p>
+              <p class="text-center"><small><a href="mailto:jandresbravob@gmail.com"> Jaime Andres Bravo Buitrago</a> [Diseñador Grafico]</small></p>
+              <p class="text-center"><small><a href="mailto:jason-293@hotmail.com"> Jason Roberto Camargo</a> [Documentador]</small></p>
+              <p class="text-center"><small><a href="mailto:ycure10@gmail.com"> Yasar José Cure González</a> [Desarrollador Back-End]</small></p>
+            </div>
+          </div>
       </div>
     </div>
     
-</footer>
+  </footer>
 
 </div>
 </template>
