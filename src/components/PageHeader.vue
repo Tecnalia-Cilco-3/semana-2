@@ -2,6 +2,7 @@
 <div>
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        
         <a class="navbar-brand" href="#">
             <img src="images/js_logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
             Vue JS Page
@@ -27,6 +28,7 @@
 
     <!-- Carousel -->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+       
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -34,26 +36,26 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/vuejs.jpg" class="d-block w-100" alt="..." height="506px">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
+                <img src="images/vuejs.jpg" class="d-block w-100" alt="Vue Js" >
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Vue JS</h5>
+                    <p>Utilizamos el framework Vue JS y su característico trabajo con componentes.</p>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="https://miro.medium.com/max/800/1*TJT7z7w3baYO0ON-6RbaYA.png" class="d-block w-100" alt="...">
+                <img src="images/bootstrap.jpg" class="d-block w-100" alt="Bootstrap">
 
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bootstrap</h5>
+                    <p>Los estilos de Bootstrap fueron de mucha ayuda para diseñar nuestro sitio responsive.</p>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="images/js.png" class="d-block w-100" alt="..." height="506px">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
+                <img src="images/js.png" class="d-block w-100" alt="JavaScript" >
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>JavaScript</h5>
+                    <p>El manejo de JavaScript nos permitió comprender el funcionamiento del Framework Vue JS. </p>
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -65,6 +67,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    
 </div>
 </template>
 
