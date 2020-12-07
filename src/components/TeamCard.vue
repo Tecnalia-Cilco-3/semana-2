@@ -1,10 +1,10 @@
 <template>
-    <div class="card text-white bg-dark">
+    <!-- <div class="card text-white bg-dark"> -->
+        <div class="card border-info mb-3" style="max-width: 18rem; margin-top: 10px">
         <div class="d-flex justify-content-center p-2">
-            <div class="rounded-circle">
                 <img :src="member.image" class="rounded-circle" alt="..." style="height: 250px" />
                 <!-- <img class="card-img-top" v-bind:src="member.image" alt="not found"> -->
-            </div>
+            <!-- </div> -->
         </div>
         <div class="card-body">
             <h5 class="card-title text-center mb-0">{{ member.nombre }}</h5>
@@ -29,14 +29,8 @@ export default {
   name: "TeamCard",
   props: {
     member: Object,
-    // computed: {
-    //     items() {
-    //     return datos.map((item) => {
-    //         return item;
-    //     })
-    //     }
-  },
-};
+  }
+}
 </script>
 
 <style scoped>

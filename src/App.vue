@@ -13,7 +13,7 @@
       <hr>
       <h2 class="text-center">Equipo de trabajo</h2>
       <div class="card-deck">
-        <div class="card m-n2" v-for="(item, index) of team" v-bind:key="index">
+        <div class="card m-1" style="background-color: #000127 " v-for="(item, index) of team" v-bind:key="index">
           <team-card :member="item"></team-card>
         </div>
       </div>
