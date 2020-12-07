@@ -1,5 +1,5 @@
 <template>
-<div>
+
   <!-- Aquí va el footer -->
   <footer>
     <div class="container-fluid content-row">
@@ -25,15 +25,15 @@
       </div>
     </div>
 
-      <div class="container-fluid mt-3">
-          <p class="text-center text-muted"> Copyright 2020 - Team 73</p>
+      <div class="container-fluid mt-3 d-flex justify-content-center">
+          <p class=" text-white mb-2"> Copyright © 2020 - Team 73</p>
       </div>
         
 
     
   </footer>
 
-</div>
+
 </template>
 
 <script>
