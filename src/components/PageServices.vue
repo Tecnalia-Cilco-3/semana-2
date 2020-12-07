@@ -52,7 +52,7 @@
               Los editores de Google Play realizaron una lista de las mejores apps 
               en 2020 y nos pareció importante compartirlas con ustedes.
             </p>
-            <a href="#" class="btn btn-primary">More</a>
+            <a href="https://www.enter.co/chips-bits/apps-software/las-mejores-apps-de-google-play-en-2020/" class="btn btn-primary" target="_blank">More</a>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@
               La iniciativa del Ministerio de TIC enmarcada en el proyecto Jóvenes 4.0, espera 
               formar entre 68.000 y 112.000 programadores para el 2025.
             </p>
-            <a href="#" class="btn btn-primary">More</a>
+            <a href="https://www.enter.co/especiales/dev/mintic-busca-formar-100-000-programadores-para-2025/" class="btn btn-primary" target="_blank">More</a>
           </div>
         </div>
       </div>
