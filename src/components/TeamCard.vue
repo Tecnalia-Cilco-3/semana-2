@@ -2,7 +2,7 @@
     <!-- <div class="card text-white bg-dark"> -->
         <div class="card border-info mb-3" style="max-width: 18rem; margin-top: 10px">
         <div class="d-flex justify-content-center p-2">
-                <img :src="member.image" class="rounded-circle" alt="..." style="height: 250px" />
+                <img :src="member.image" class="rounded-circle" alt="not found" style="width: 100%" />
                 <!-- <img class="card-img-top" v-bind:src="member.image" alt="not found"> -->
             <!-- </div> -->
         </div>
