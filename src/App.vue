@@ -1,30 +1,36 @@
 <template>
-  <div id="app" >
+  <div id="app">
     <page-header />
+    <!--Inicio Services  -->
+    <page-services> </page-services>
+    <!--Fin Services -->
 
     <!-- Noticias -->
     <section id="news" class="container-fluid">
-      <hr class="bg-white">
+      <hr class="bg-white" />
       <h2 class="text-center" style="color: white">Sección de Noticias</h2>
-      <page-news/>
+      <page-news />
     </section>
 
     <!-- Team -->
     <section id="team" class="container-fluid">
-      <hr class="bg-white">
+      <hr class="bg-white" />
       <h2 class="text-center" style="color: white">Equipo de trabajo</h2>
       <div class="card-deck row justify-content-center">
-        <div class="card mt-1" style="min-width: 200px; max-width: 300px" v-for="(item, index) of team" v-bind:key="index">
-        <!-- <div class="col m-1" v-for="(item, index) of team" v-bind:key="index"> -->
+        <div
+          class="card mt-1"
+          style="min-width: 200px; max-width: 300px"
+          v-for="(item, index) of team"
+          v-bind:key="index"
+        >
           <team-card :member="item"></team-card>
-          </div>
         </div>
-
+      </div>
     </section>
     <!-- Fin Team -->
 
     <div class="mt-2">
-      <hr class="bg-white">
+      <hr class="bg-white" />
       <page-footer></page-footer>
     </div>
   </div>
@@ -32,6 +38,7 @@
 
 <script>
 import PageHeader from "./components/PageHeader.vue";
+import PageServices from "./components/PageServices.vue";
 import PageNews from "./components/PageNews.vue";
 import TeamCard from "./components/TeamCard.vue";
 import PageFooter from "./components/PageFooter.vue";
@@ -40,8 +47,9 @@ export default {
   name: "App",
   components: {
     PageHeader,
-    TeamCard,
+    PageServices,
     PageNews,
+    TeamCard,
     PageFooter,
   },
   data() {
@@ -99,7 +107,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: #2c3e50;
 }
 </style>
