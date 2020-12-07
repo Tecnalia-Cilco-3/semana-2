@@ -1,5 +1,5 @@
 <template>
-  <div id="app" style="background-color: #000127">
+  <div id="app" >
     <page-header />
 
     <!-- Noticias -->
@@ -13,7 +13,7 @@
     <section id="team" class="container-fluid">
       <hr class="bg-white">
       <h2 class="text-center" style="color: white">Equipo de trabajo</h2>
-      <div class="card-deck justify-content-center">
+      <div class="card-deck row justify-content-center">
         <div class="card mt-1" style="min-width: 200px; max-width: 300px" v-for="(item, index) of team" v-bind:key="index">
         <!-- <div class="col m-1" v-for="(item, index) of team" v-bind:key="index"> -->
           <team-card :member="item"></team-card>

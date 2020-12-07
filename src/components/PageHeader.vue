@@ -1,7 +1,7 @@
 <template>
 <div>
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0A5BE8">
         
         <a class="navbar-brand" href="#">
             <img src="../../src/assets/images/js_logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -36,14 +36,14 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/vuejs.jpg" class="d-block w-100" alt="Vue Js" >
+                <img src="../../src/assets/images/vuejs.jpg" class="d-block w-100" alt="Vue Js" >
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Vue JS</h5>
                     <p>Utilizamos el framework Vue JS y su característico trabajo con componentes.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/bootstrap.jpg" class="d-block w-100" alt="Bootstrap">
+                <img src="../../src/assets/images/bootstrap.jpg" class="d-block w-100" alt="Bootstrap">
 
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Bootstrap</h5>
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/js.png" class="d-block w-100" alt="JavaScript" >
+                <img src="../../src/assets/images/js.png" class="d-block w-100" alt="JavaScript" >
                 <div class="carousel-caption d-none d-md-block">
                     <h5>JavaScript</h5>
                     <p>El manejo de JavaScript nos permitió comprender el funcionamiento del Framework Vue JS. </p>
