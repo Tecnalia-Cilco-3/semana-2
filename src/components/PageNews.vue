@@ -1,5 +1,6 @@
 <template>
   <!-- Noticias -->
+  <div>
   <div class="mt-2">
     <h2 class="text-center">{{ title }}</h2>
     <div class="row row-cols-2">
@@ -26,6 +27,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
