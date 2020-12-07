@@ -29,5 +29,20 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "description": "```\r npm install\r ```",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equipo73mintic/Reto-Semana-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/equipo73mintic/Reto-Semana-2/issues"
+  },
+  "homepage": "https://github.com/equipo73mintic/Reto-Semana-2#readme"
 }
