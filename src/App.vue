@@ -19,12 +19,6 @@
       </div>
     </section>
 
-    <!-- Este es un componente para probar las peticiones con axios -->
-    <div class="mt-2">
-      <PruebaAxios/>
-    </div>
-
-        <!-- Este es un componente para probar las peticiones con axios -->
     <div class="mt-2">
       <page-footer/>
     </div>
@@ -36,11 +30,9 @@
 
 <script>
 
-// import Probemos from './components/Probemos.vue';
 import PageHeader from './components/PageHeader.vue';
 import TeamCard from './components/TeamCard.vue';
 import PageNews from './components/PageNews.vue';
-import PruebaAxios from './components/PruebaAxios.vue';
 import PageFooter from './components/PageFooter.vue';
 
 export default {
@@ -48,7 +40,6 @@ export default {
   components: {
     PageHeader,
     TeamCard,
-    PruebaAxios,
     PageNews,
     PageFooter
   },
@@ -74,7 +65,7 @@ export default {
             {
                 codigo : 3 ,
                 nombre : "Geraldine Claros" ,
-                descripcion : "Habilidades y competencias en ciencias físicas, matemáticas y en diversos lenguajes de programación." ,
+                descripcion : "Estudiante de Ingeniería Física. Amante a los animales y la tecnología" ,
                 rol : "Desarrollador frontend" ,
                 image : "images/geral.jpeg"
             },

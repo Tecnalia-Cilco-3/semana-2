@@ -1,12 +1,12 @@
 <template>
-<!-- Noticias -->
-<div class="mt-2">
+  <!-- Noticias -->
+  <div class="mt-2">
     <h2 class="text-center">{{ title }}</h2>
     <div class="row row-cols-2">
             
         <div class="col" v-for="dato in datos" v-bind:key="dato.id">
 
-            <div class= "d-flex justify-content-center">
+            <div class= "d-flex justify-content-center container" >
                 <div class="card mb-3" style="max-width: 900px;">
                     <div class="row no-gutters">
                         <div class="col-md-4 mt-4">
@@ -21,24 +21,21 @@
                         </div>
                     </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-
-            
-    </div>
-</div>
-
 </template>
 
 <script>
 import axios from "axios";
 
 export default {
-    name: "PageNews",
-    props: {
-        title: String
-    },
-    data () {
+  name: "PageNews",
+  props: {
+    title: String,
+  },
+  data() {
     return {
         datos: null,
         poster: "",
@@ -64,5 +61,7 @@ mounted () {
 </script>
 
 <style>
-
+   .container {
+     height: 300px;
+   }
 </style>

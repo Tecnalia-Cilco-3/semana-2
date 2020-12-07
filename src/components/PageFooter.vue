@@ -39,10 +39,7 @@
 <script>
 export default {
   name: "PageHeader",
-  props: {
-
-  },
-  
+  props: {},
 };
 </script>
 
