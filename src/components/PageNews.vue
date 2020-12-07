@@ -6,7 +6,7 @@
             
         <div class="col" v-for="dato in datos" v-bind:key="dato.id">
 
-            <div class= "d-flex justify-content-center">
+            <div class= "d-flex justify-content-center container" >
                 <div class="card mb-3" style="max-width: 900px;">
                     <div class="row no-gutters">
                         <div class="col-md-4 mt-4">
@@ -25,9 +25,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 </template>
 
 <script>
@@ -64,31 +61,7 @@ mounted () {
 </script>
 
 <style>
-    .boton {
-        width: 50%;
-        height: 50px;
-        margin: 5px;
-        padding: 10px;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        border-radius: 50px;
-        font-size: 11px;
-        line-height: 32px;
-        text-transform: uppercase;
-        float: left;
-    }
-    .boton:hover {
-        opacity: 0.5;
-        -moz-opacity: 0.5;
-        filter: alpha (opacity=50);
-    }
-
-    .boton>img{
-        width: 50PX;;
-    }
-    .boton a {
-        color: #fff;
-        text-decoration: none;
-        padding: 5px 5px 5px 0;
-    }
+   .container {
+     height: 300px;
+   }
 </style>
