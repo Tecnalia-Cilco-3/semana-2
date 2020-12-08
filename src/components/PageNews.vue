@@ -1,25 +1,30 @@
 <template>
   <!-- Noticias -->
   <div>
-  <div class="mt-2">
-    <h2 class="text-center">{{ title }}</h2>
-    <div class="row row-cols-2">
-      <div class="col" v-for="dato in datos" v-bind:key="dato.id">
-        <div class="d-flex justify-content-center container">
-          <div class="card mb-3" style="max-width: 900px">
-            <div class="row no-gutters">
-              <div class="col-md-4 mt-4">
-                <img :src="dato.urlToImage" class="card-img" alt="News Image" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">{{ dato.title }}</h5>
-                  <p style="font-size: 13px">{{ dato.description }}</p>
-                  <a :href="dato.url" target="_blank">
-                    <button type="button" class="btn btn-outline-info">
-                      Info
-                    </button>
-                  </a>
+    <div class="mt-2">
+      <h2 class="text-center">{{ title }}</h2>
+      <div class="row row-cols-2">
+        <div class="col" v-for="dato in datos" v-bind:key="dato.id">
+          <div class="d-flex justify-content-center container">
+            <div class="card mb-3" style="max-width: 900px">
+              <div class="row no-gutters">
+                <div class="col-md-4 mt-4">
+                  <img
+                    :src="dato.urlToImage"
+                    class="card-img"
+                    alt="News Image"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ dato.title }}</h5>
+                    <p style="font-size: 13px">{{ dato.description }}</p>
+                    <a :href="dato.url" target="_blank">
+                      <button type="button" class="btn btn-outline-info">
+                        Info
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -27,7 +32,6 @@
         </div>
       </div>
     </div>
-  </div>
   </div>
 </template>
 
@@ -67,7 +71,14 @@ export default {
 </script>
 
 <style>
-.container {
-  height: 270px;
-}
+  .container {
+    height: 270px;
+  }
+  h5 {
+    font-weight: bold;
+    font-family: cursive;
+  }
+  p{
+    font-family: cursive;
+  }
 </style>

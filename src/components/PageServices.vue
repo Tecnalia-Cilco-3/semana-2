@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="row justify-content-center mb-5">
-      <div class='card-deck'>
+      <div class="card-deck">
         <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
           <div class="card">
             <div class="d-flex justify-content-center p-2">
@@ -96,4 +96,10 @@ export default {
 </script>
 
 <style scoped>
+  h5 {
+    font-weight: bold;
+  }
+  p{
+    font-family: cursive;
+  }
 </style>
