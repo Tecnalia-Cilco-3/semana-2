@@ -1,9 +1,9 @@
 <template>
-  <div class="container-fluid">
-    <div class="row justify-content-center mb-5">
-      <div class='card-deck'>
-        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
-          <div class="card">
+  <div class="container-fluid mt-5">
+   
+      <div class="card-deck row justify-content-center ">
+
+          <div class="card ">
             <div class="d-flex justify-content-center p-2">
               <img
                 src="https://www.itsitio.com/wp-content/uploads/2019/04/soft-covid-780x405.jpg"
@@ -28,9 +28,9 @@
                 >More</a
               >
             </div>
-          </div>
+          
         </div>
-        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
+
           <div class="card">
             <div class="d-flex justify-content-center p-2">
               <img
@@ -54,9 +54,9 @@
                 >More</a
               >
             </div>
-          </div>
+
         </div>
-        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
+
           <div class="card">
             <div class="d-flex justify-content-center p-2">
               <img
@@ -82,11 +82,12 @@
               >
             </div>
           </div>
-        </div>
+        
       </div>
     </div>
-  </div>
+
 </template>
+
 
 <script>
 export default {
