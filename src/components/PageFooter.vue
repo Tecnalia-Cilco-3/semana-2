@@ -13,11 +13,11 @@
 
           <div class="col-sm-12 col-lg-6">
             <div class="card h-100">
-              <p class="text-center mb-0 mt-2"><small><a href="mailto:santamaria.wolfgang@gmail.com"> Wolfgang Jose Santamaria Cordoba</a> [Scrum Master]</small></p>
-              <p class="text-center mb-0"><small><a href="mailto:geralcr749@gmail.com"> Geraldine Claros Rios</a> [Desarrollador Front-End]</small></p>
-              <p class="text-center mb-0"><small><a href="mailto:jandresbravob@gmail.com"> Jaime Andres Bravo Buitrago</a> [Diseñador Grafico]</small></p>
-              <p class="text-center mb-0"><small><a href="mailto:jason-293@hotmail.com"> Jason Roberto Camargo</a> [Documentador]</small></p>
-              <p class="text-center mb-0"><small><a href="mailto:ycure10@gmail.com"> Yasar José Cure González</a> [Desarrollador Back-End]</small></p>
+              <p class="text-center mb-0 mt-2"><small><a href="mailto:santamaria.wolfgang@gmail.com"> Wolfgang Jose Santamaria Cordoba</a> [Scrum master]</small></p>
+              <p class="text-center mb-0"><small><a href="mailto:geralcr749@gmail.com"> Geraldine Claros Rios</a> [Front-end developer]</small></p>
+              <p class="text-center mb-0"><small><a href="mailto:jandresbravob@gmail.com"> Jaime Andres Bravo Buitrago</a> [Back-end developer]</small></p>
+              <p class="text-center mb-0"><small><a href="mailto:jason-293@hotmail.com"> Jason Roberto Camargo</a> [Full-stack developer]</small></p>
+              <p class="text-center mb-0"><small><a href="mailto:ycure10@gmail.com"> Yasar José Cure González</a> [Back-end developer]</small></p>
             </div>
           </div>
       </div>
