@@ -6,10 +6,8 @@
       <div class="row">
           <div class="col-sm-12 col-lg-6">            
               <div class="card h-100">
-                <div class="card-footer">
-                  <h5 class="card-title text-center">Espacio dedicado a los frameworks para javascript de mayor tendencia y versatilidad en el mundo de la programación.</h5>               
-                  <p class="text-center"><a href="https://github.com/equipo73mintic/Reto-Semana-2" class="btn btn-info" target="_blank">Repositorio Github</a></p>
-                </div>
+                <h5 class="card-title text-center m-4">Web page con diseño responsivo desarrollada por el equipo No. 73 dentro del ciclo III Desarrollo de software del programa MisiónTIC2022</h5>               
+                <p class="text-center"><a href="https://github.com/equipo73mintic/Reto-Semana-2" class="btn btn-info" target="_blank">Repositorio Github</a></p>                
               </div>
           </div>
 
