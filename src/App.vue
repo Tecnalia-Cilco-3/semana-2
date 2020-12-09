@@ -19,7 +19,7 @@
       <div class="card-deck row justify-content-center">
         <div
           class="card mt-1"
-          style="min-width: 200px; max-width: 300px"
+          style="min-width: 210px; max-width: 300px"
           v-for="(item, index) of team"
           v-bind:key="index"
         >
