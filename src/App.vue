@@ -60,7 +60,7 @@ export default {
           codigo: 1,
           nombre: "Wolfgang Santamaría",
           descripcion:
-            "Ingeniero, Músico y sobre apasionado a los videojuegos.",
+            "Ingeniero, músico y sobre apasionado a los videojuegos",
           rol: "Scrum Master",
           image: require("../src/assets/images/wolf.jpeg"),
         },
@@ -68,32 +68,32 @@ export default {
           codigo: 2,
           nombre: "Yasar José Cure",
           descripcion:
-            "Estudiante de Ingeniería de Sistemas. Me gusta la comida, jugar fútbol y los videojuegos, pero eso cuando hay tiempo.",
-          rol: "Desarrollador backend",
+            "Estudiante de Ingeniería de Sistemas. Me gusta la comida, jugar fútbol y los videojuegos, pero eso cuando hay tiempo",
+          rol: "Back-end developer",
           image: require("../src/assets/images/yaser.jpeg"),
         },
         {
           codigo: 3,
           nombre: "Geraldine Claros",
           descripcion:
-            "Estudiante de Ingeniería Física. Amante a los animales y la tecnología",
-          rol: "Desarrollador frontend",
+            "Estudiante de Ingeniería Física. Amante de los animales y la tecnología",
+          rol: "Front-end developer",
           image: require("../src/assets/images//geral.jpeg"),
         },
         {
           codigo: 4,
           nombre: "Jason Roberto Camargo",
           descripcion:
-            "Apasionado por el desarrollo de software y la tecnologia. Amante a la velocidad. Biker ",
-          rol: "Desarrolador Fullstack",
+            "Apasionado por el desarrollo de software y la tecnología. Amante a la velocidad. Biker",
+          rol: "Full-stack developer",
           image: require("../src/assets/images/jason.jpeg"),
         },
         {
           codigo: 5,
           nombre: "Jaime Andrés Bravo",
           descripcion:
-            "Ingeniero mecanico, baterista, ciclista, y exfutbolista. Incursionando en el desarrollo de aplicaciones. Con experiencia en el montaje de calderas",
-          rol: "Diseñador Gráfico",
+            "Ingeniero mecánico de profesión, aficionado a la batería, a montar bicicleta, y al fútbol. Incursionando en el desarrollo de aplicaciones",
+          rol: "Back-end developer",
           image: require("../src/assets/images/andres.jpeg"),
         },
       ],

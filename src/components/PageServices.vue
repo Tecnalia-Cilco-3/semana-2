@@ -1,9 +1,9 @@
 <template>
-  <div class="container-fluid mt-5">
-   
-      <div class="card-deck row justify-content-center ">
-
-          <div class="card ">
+  <div class="container-fluid">
+    <div class="row justify-content-center mb-5">
+      <div class='card-deck'>
+        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
+          <div class="card h-100">
             <div class="d-flex justify-content-center p-2">
               <img
                 src="https://www.itsitio.com/wp-content/uploads/2019/04/soft-covid-780x405.jpg"
@@ -20,18 +20,18 @@
                 Los equipos de desarrolladores de software ser han convertido en
                 el ejemplo de cómo deben operar las empresas después de la
                 crisis del COVID-19.
-              </p>
-              <a
-                href="https://www.enter.co/especiales/dev/desarrolladores-de-software-fueron-muy-productivos-durante-crisis-de-covid-19/"
-                class="btn btn-primary"
-                target="_blank"
-                >More</a
-              >
+              </p>              
             </div>
-          
+            <p class="text-left ml-3"><a
+              href="https://www.enter.co/especiales/dev/desarrolladores-de-software-fueron-muy-productivos-durante-crisis-de-covid-19/"
+              class="btn btn-primary"
+              target="_blank"
+              >More</a
+            ></p>
+          </div>
         </div>
-
-          <div class="card">
+        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
+          <div class="card h-100">
             <div class="d-flex justify-content-center p-2">
               <img
                 src="https://www.muycomputer.com/wp-content/uploads/2020/12/Mejores-aplicaciones-Google-Play-Store-2020-Android-e1606905702513.jpg"
@@ -46,18 +46,18 @@
               <p class="card-text">
                 Los editores de Google Play realizaron una lista de las mejores
                 apps en 2020 y nos pareció importante compartirlas con ustedes.
-              </p>
-              <a
-                href="https://www.enter.co/chips-bits/apps-software/las-mejores-apps-de-google-play-en-2020/"
-                class="btn btn-primary"
-                target="_blank"
-                >More</a
-              >
+              </p>              
             </div>
-
+            <p class="text-left ml-3"><a
+              href="https://www.enter.co/chips-bits/apps-software/las-mejores-apps-de-google-play-en-2020/"
+              class="btn btn-primary"
+              target="_blank"
+              >More</a
+            ></p>
+          </div>
         </div>
-
-          <div class="card">
+        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
+          <div class="card h-100">
             <div class="d-flex justify-content-center p-2">
               <img
                 src="https://www.ucaldas.edu.co/portal/wp-content/uploads/2020/08/mision-tic.jpg"
@@ -73,14 +73,14 @@
                 La iniciativa del Ministerio de TIC enmarcada en el proyecto
                 Jóvenes 4.0, espera formar entre 68.000 y 112.000 programadores
                 para el 2025.
-              </p>
-              <a
-                href="https://www.enter.co/especiales/dev/mintic-busca-formar-100-000-programadores-para-2025/"
-                class="btn btn-primary"
-                target="_blank"
-                >More</a
-              >
+              </p>              
             </div>
+            <p class="text-left ml-3"><a
+              href="https://www.enter.co/especiales/dev/mintic-busca-formar-100-000-programadores-para-2025/"
+              class="btn btn-primary"
+              target="_blank"
+              >More</a
+            ></p>
           </div>
         
       </div>
