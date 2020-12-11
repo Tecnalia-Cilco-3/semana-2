@@ -1,0 +1,46 @@
+<template>
+
+  <!-- Aquí va el footer -->
+  <footer>
+    <div class="container-fluid content-row">
+      <div class="row">
+          <div class="col-sm-12 col-lg-6">            
+              <div class="card h-100">
+                <h5 class="card-title text-center m-4">Web page con diseño responsivo desarrollada por el equipo No. 73 dentro del ciclo III Desarrollo de software del programa MisiónTIC2022</h5>               
+                <p class="text-center"><a href="https://github.com/equipo73mintic/Reto-Semana-2" class="btn btn-info" target="_blank">Repositorio Github</a></p>                
+              </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <p class="text-center mb-0 mt-2"><small><a href="mailto:santamaria.wolfgang@gmail.com"> Wolfgang Jose Santamaria Cordoba</a> [Scrum master]</small></p>
+              <p class="text-center mb-0"><small><a href="mailto:geralcr749@gmail.com"> Geraldine Claros Rios</a> [Front-end developer]</small></p>
+              <p class="text-center mb-0"><small><a href="mailto:jandresbravob@gmail.com"> Jaime Andres Bravo Buitrago</a> [Back-end developer]</small></p>
+              <p class="text-center mb-0"><small><a href="mailto:jason-293@hotmail.com"> Jason Roberto Camargo</a> [Full-stack developer]</small></p>
+              <p class="text-center mb-0"><small><a href="mailto:ycure10@gmail.com"> Yasar José Cure González</a> [Back-end developer]</small></p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+      <div class="container-fluid mt-3 d-flex justify-content-center">
+          <p class=" text-white mb-2"> Copyright © 2020 - Team 73</p>
+      </div>
+        
+
+    
+  </footer>
+
+
+</template>
+
+<script>
+export default {
+  name: "PageFooter",
+  props: {},
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+</style>
